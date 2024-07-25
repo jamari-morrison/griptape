@@ -95,6 +95,7 @@ from .file_manager.amazon_s3_file_manager_driver import AmazonS3FileManagerDrive
 
 from .rerank.base_rerank_driver import BaseRerankDriver
 from .rerank.cohere_rerank_driver import CohereRerankDriver
+from .rerank.pongo_rerank_driver import PongoRerankDriver
 
 from .text_to_speech.base_text_to_speech_driver import BaseTextToSpeechDriver
 from .text_to_speech.dummy_text_to_speech_driver import DummyTextToSpeechDriver
@@ -198,6 +199,7 @@ __all__ = [
     "AmazonS3FileManagerDriver",
     "BaseRerankDriver",
     "CohereRerankDriver",
+    "PongoRerankDriver",
     "BaseTextToSpeechDriver",
     "DummyTextToSpeechDriver",
     "ElevenLabsTextToSpeechDriver",
